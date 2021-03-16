@@ -1,0 +1,178 @@
+/* ! foglio di stile (Rewrited using Sublime Text - x : http://www.lim.com - for Boolean - 2021 */
+
+
+/* --------------------- Base Css Style ---------------------- */
+
+
+a {
+	text-decoration:none;
+	outline:none;
+
+}
+
+
+body {
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+	background: #333 url(Images/Bg.png) no-repeat fixed center;
+
+}
+
+
+.container {
+	display:block;
+	width:1200px;
+	height:800px;
+	top:50%;
+	left:50%;
+	margin:-440px 0 0 -600px;
+	background: linear-gradient(0deg, rgba(0,0,0,.5), rgba(0,0,0,.6));
+	border-radius:18px;
+	position:absolute;
+
+}
+
+
+/* -------------------- End Base Css Style ---------------- */
+
+
+
+
+
+/*----------- Header -------------- */
+
+
+.logo {
+	display:block;
+	width:20%;
+	height:20%;
+	margin:0 auto;
+	margin-top:80px;
+
+}
+
+
+.payoff {
+	display:block;
+	font-weight:500;
+	font-size:30px;
+	text-align:center;
+	color: #1ec31eff;
+
+}
+
+
+
+/* ----------------- Nav -------------------- */
+
+
+.nav_bar {
+	width:80%;
+	height:50px;
+	background: #1ec31eff;
+	margin:auto;
+	margin-top:10px;
+	position:relative;
+
+}
+
+.span {
+	display:block;
+	margin:auto;
+	float:right;
+	padding:12px 320px 0 0;
+
+}
+
+.span button {
+	display:inline-block;
+	margin:auto;
+	padding: 0 5px 0 5px;
+
+}
+
+button {
+	font-weight:bold;
+
+}
+
+
+/* ----------------- Main ------------------ */
+
+
+.main {
+	position:relative;
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+
+}
+
+.mono_text {
+	font-weight:500;
+	font-size:22px;
+	color: #fff;
+
+}
+
+.arrow {
+	display:inline-block;
+	color: #fff;
+
+}
+
+
+.address, .stato {
+	font-weight:400;
+	font-size:15px;
+	color: #fff;
+
+}
+
+
+.bar_spacing {
+	margin-top:25px;
+
+}
+
+
+/*--------------- Progress Bar Style -------------- */
+
+
+
+.orange_bar {
+	width:35%;
+	height:30px;
+	border-radius:6px;
+	background-color: #f5b453ff;
+
+}
+
+
+.green_bar {
+	width:60%;
+	height:30px;
+	border-radius:6px;
+	background-color: #1ec31eff;
+
+}
+
+
+.red_bar {
+	width:15%;
+	height:30px;
+	border-radius:6px;
+	background-color: #be4141ff;
+
+}
+
+
+
+
+
+
+
+
+
+
